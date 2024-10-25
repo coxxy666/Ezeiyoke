@@ -1,0 +1,318 @@
+body {
+   background-color: #000; 
+    
+}
+
+.backgroundImage{
+    height: 90vh; 
+    background-repeat:no-repeat; 
+    background-size: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+    margin-left:30px ;
+    top: 0%;
+    /* box-shadow: 1px 1px 1px 1px rgba(135, 250, 3, 0.968); */
+    
+
+}
+.about-me {
+   color: #fff;
+   background-color: rgba(135, 250, 3, 0.968);
+   width: 150px;
+   height: 40px;
+   margin-left: 30%;
+   margin-top: 20px;
+   border-radius: 10px;
+
+}
+.about-me a{
+    text-align: center;
+    list-style-type: none;
+}
+
+.navbar-div{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    text-align: center;
+    margin-left: 100%;
+}
+.nav-Bar ul {
+    text-decoration: none;
+    display: flex;
+    list-style-type: none;
+    padding: 10px;
+   
+
+}
+
+.nav-link {
+    padding: 10px;
+    text-decoration: none;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: medium;
+    color: #fff;
+}
+.intro-div{
+    text-align: center;
+    /* top: 5px; */
+    position: relative;
+    /* margin-left: 5%; */
+    color:#fff;
+}
+.menu-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, auto);
+    width: 90%;
+    justify-content: space-around;
+    gap: 20px;
+    margin-left: 50px;
+    padding: 20px;
+    margin-top: 2px;
+    
+}
+
+.menu-class{
+    
+    text-align: center;
+    border-radius: 10px; 
+    box-shadow: 2px 2px 2px 2px rgba(135, 250, 3, 0.968);
+    height: 300px;
+    width: auto;
+    
+}
+
+.resume {
+    background-color: #930404;
+}
+
+.protfolio{
+    background-color: #fff;
+    
+}
+.protfolio a {
+    color: #000;
+}
+.blog {
+    background-color: #ead30992;
+}
+.contact {
+    background-color: #0712a7;
+}
+
+.resume, .blog,.contact a{
+    color: #fff;
+}
+
+.menu-class h3 {
+    text-decoration: none;
+    color: #333; 
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.menu-class a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+
+.all-about{
+    text-align: center;
+    margin: 50px;
+}
+
+.about-intro{
+    margin: 50px;
+}
+
+.about-intro h1{
+    color: #fff;
+}
+
+.all-about p{
+    color: #fff;
+}
+
+.all-intro h5{
+    color: rgba(135, 250, 3, 0.968);
+}
+
+.all-img-intro{
+    display: flex;
+    background-color: #000;
+    width: 100%;
+}
+
+.img-intro{
+    width:25%;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+.img-intro img{
+    width: 50vh;
+    border-radius: 10px;
+    height: 50vh;
+}
+
+.all-intro{
+    width: 60%;
+    margin-left: 30px;
+    padding-left: 20px;
+    margin-top: 30px;
+
+}
+
+.about-line{
+    border: 1px inset rgba(135, 250, 3, 0.968);
+    width: 80%;
+    margin: 20px auto;
+
+}
+.info-section .info-content .content-info {
+    font-size:14px;
+    padding:20px 0
+  }
+  .content-info{
+    margin-left:100px ;
+    color: #fff;
+  }
+
+ 
+ .content-download {
+    background-color:rgba(135, 250, 3, 0.968) ;
+ }
+ 
+ .info-cv{
+    margin-left: 30%;
+
+ }
+ .content-follow{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+ }
+ 
+ .list-inline-item{
+    font-size: 30px;
+ }
+
+.resume-all{
+    text-align: center;
+    margin: 50px;
+    color: #fff;
+}
+
+.edu-exp{
+    display: flex;
+}
+ 
+.education {
+    position: relative;
+    max-width: 400px;
+    margin: 10px auto;
+    padding-left: 10px; 
+    border-left: 4px solid green;
+  }
+  
+  .experience {
+    position: relative;
+    max-width: 400px;
+    margin: 10px auto;
+    padding-left: 10px; 
+    border-left: 4px solid green; 
+  }
+  
+ 
+  .timeline-item {
+    position: relative;
+    margin-bottom: 40px; 
+  }
+  
+  
+  .timeline-item .arrow {
+    position: absolute;
+    left: -12px; 
+    top: 10px;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid green; /* Green arrow */
+  }
+  
+  .timeline-item .content-box {
+    background-color: #1d1d1d;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    color: #fff;
+  }
+  
+  .timeline-item .content-box h3 {
+    margin: 0 0 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .timeline-item .content-box p {
+    margin: 0;
+    font-size: 14px;
+    color: #aaa;
+  }
+  
+ 
+  .timeline-item .content-box:hover {
+    background-color: #333;
+  }
+
+  /* Main container */
+.skills-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px;
+  }
+  
+  /* Individual skill container */
+  .skill-container {
+    width: 48%;
+    margin-bottom: 20px;
+  }
+  
+  /* Skill title */
+  .skill-title {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  /* Progress bar background */
+  .progress-bar {
+    width: 100%;
+    background-color: #2e2e2e;
+    border-radius: 10px;
+    height: 10px;
+    overflow: hidden;
+  }
+  
+  /* Progress inside the bar */
+  .progress {
+    height: 100%;
+    background-color: #00aa55;
+    border-radius: 10px;
+  }
+  
+  
